@@ -1,0 +1,32 @@
+.login-page {
+  padding-top: 48px;
+}
+
+.login-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #111;
+  line-height: 1.25;
+  margin-bottom: 12px;
+}
+
+.login-subtitle {
+  font-size: 14px;
+  color: #999;
+  line-height: 1.6;
+  margin-bottom: 36px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-btn {
+  margin-top: 8px;
+}
+
+.btn-disabled {
+  background: #c0b3e8 !important;
+  cursor: not-allowed;
+}

@@ -1,0 +1,80 @@
+.settings-page {
+  padding-top: 32px;
+  padding-bottom: 0;
+}
+
+.settings-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+.settings-card {
+  background: #fff;
+  border-radius: 0;
+  padding: 20px 0 0;
+  border-top: 1px solid #ececec;
+  border-bottom: 1.5px dashed #ddd;
+  padding-bottom: 24px;
+}
+
+.profile-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+  padding: 0 4px;
+}
+
+.avatar-wrap {
+  position: relative;
+  width: 68px;
+  height: 68px;
+  flex-shrink: 0;
+}
+
+.avatar-img {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.camera-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  background: #6c3ce1;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+}
+
+.camera-btn:hover { background: #5a2fcb; }
+
+.profile-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 3px;
+}
+
+.profile-email {
+  font-size: 13px;
+  color: #777;
+}
+
+.profile-bio {
+  font-size: 13px;
+  color: #444;
+  line-height: 1.65;
+  padding: 0 4px;
+}
